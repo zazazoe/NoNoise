@@ -1,0 +1,40 @@
+
+body {
+/*	align-items: center;*/
+	display: block;
+	background-color: #6d71de;
+	color:white;
+	position:absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.title{
+	font-family: 'Comfortaa', cursive;
+	font-weight: bolder;
+	font-size: 5vw;
+	text-align: left;
+}
+
+.subtitle{
+	font-family: 'Comfortaa', cursive;
+	font-weight: lighter;
+	font-size: 1.1vw;
+	text-align: left;
+	margin-left: 0.5em;
+	margin-top: -4.1em;
+}
+
+#handClapGif{
+	position: absolute;
+	margin-top: -10%;
+/*	margin-right: -80%;
+	transform: translate(-20%-80%);*/
+}
+
+#handClapGif img {
+	width: 100%;
+}
