@@ -47,7 +47,7 @@ body {
 
 
 /*MOBILE SETTINGS*/
-@media only screen and (max-device-width : 800px) {
+/*@media only screen and (max-device-width : 800px) {
   body {
   	background-color: black;
   }
@@ -65,4 +65,4 @@ body {
   #handClapGif img {
 	width: 150%;
   }
-}
+}*/
