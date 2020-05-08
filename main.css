@@ -5,7 +5,7 @@ body {
 	margin: 0;
 	top: 50%;
 	left: 50%;
-	margin-right: -50%;
+/*	margin-right: -50%;*/
 	transform: translate(-50%, -50%);
 	display: block;
 	background-color: #6d71de;
@@ -23,17 +23,15 @@ body {
 	font-weight: bolder;
 	font-size: 18px;
 	text-align: center;
-	margin-left: 0.5em;
 	margin-top: -3.0em;
 }
 
 #tagline{
 	margin-top: 2em;
-	width: 20em;
+	width: 325px;
 	font-size: 16px;
 	line-height: 1.8;
 	text-align: center;
-	margin-left: 0.5em;
 }
 
 #handClapGif{
@@ -46,8 +44,18 @@ body {
 }
 
 
+/*MOBILE SETTINGS*/
 @media only screen and (max-device-width : 800px) {
   body {
   	background-color: black;
+  }
+
+  #handClapGif{
+	position:absolute;
+	transform: translate(30%,10%);
+  }
+
+  #handClapGif img {
+	width: 150%;
   }
 }
