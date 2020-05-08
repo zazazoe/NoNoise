@@ -46,7 +46,7 @@ body {
 }
 
 
-@media only screen and (max-device-width : 1500px) {
+@media only screen and (max-device-width : 800px) {
   body {
   	background-color: black;
   }
