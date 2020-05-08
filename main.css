@@ -1,40 +1,46 @@
 
 body {
 /*	align-items: center;*/
-	display: block;
-	background-color: #6d71de;
-	color:white;
 	position:absolute;
 	margin: 0;
 	top: 50%;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
+	display: block;
+	background-color: #6d71de;
+	color:white;
+	font-family: 'Comfortaa', cursive;
 }
 
 .title{
-	font-family: 'Comfortaa', cursive;
 	font-weight: bolder;
-	font-size: 5vw;
-	text-align: left;
+	font-size: 4em;
+	text-align: center;
 }
 
 .subtitle{
-	font-family: 'Comfortaa', cursive;
-	font-weight: lighter;
-	font-size: 1.1vw;
-	text-align: left;
+	font-weight: bolder;
+	font-size: 1.0em;
+	text-align: center;
 	margin-left: 0.5em;
-	margin-top: -4.1em;
+	margin-top: -3.6em;
+}
+
+#tagline{
+	margin-top: 2em;
+	width: 20em;
+	font-size: 1.0em;
+	line-height: 1.6;
+	text-align: center;
+	margin-left: 0.5em;
 }
 
 #handClapGif{
-	position: absolute;
-	margin-top: -10%;
-/*	margin-right: -80%;
-	transform: translate(-20%-80%);*/
+	position:absolute;
+	transform: translate(15%,5%);
 }
 
 #handClapGif img {
-	width: 100%;
+	width: 75%;
 }
