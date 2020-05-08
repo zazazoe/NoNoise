@@ -6,8 +6,7 @@ body {
 }
 
 .titleBlock {
-	width: 30%;
-	min-width:310px;
+	width: 350px;
 	margin:0 auto;
 	margin-top: 37vh;
 }
@@ -42,15 +41,43 @@ body {
 }
 
 #handClapGif img {
-	width:50vh;
+	width:50%;
 }
 
+#wowGif{
+	position:fixed;
+	top:-10%;
+	right:0;
+}
+
+#wowGif img {
+	width:55%;
+}
+
+#thumbGif {
+	position:fixed;
+	bottom:-10%;
+	right:0;
+	transform: scaleX(-1);
+}
+
+#thumbGif img {
+	width: 75%;
+}
+
+
+/*NARROW WINDOW EXCEPTIONS*/
+@media all and (max-width : 900px) {
+	#thumbGif img {
+		display: none;
+	}
+}
 
 /*MOBILE SETTINGS*/
 @media only screen and (max-device-width : 800px) {
   .titleBlock {
   	width: 70%;
-  	margin-top: 15vh;
+  	margin-top: 30vh;
   }
 
   #title{
@@ -66,6 +93,11 @@ body {
   }
 
   #handClapGif img {
-	width:40vh;
+/*	width:40vh;*/
   }
+
+  #thumbGif img {
+	display: none;
+  }
+
 }
