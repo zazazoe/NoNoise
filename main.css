@@ -1,46 +1,48 @@
 
 body {
-/*	align-items: center;*/
-	position:absolute;
-	margin: 0;
-	top: 50%;
-	left: 50%;
-/*	margin-right: -50%;*/
-	transform: translate(-50%, -50%);
-	display: block;
 	background-color: #6d71de;
 	color:white;
 	font-family: 'Comfortaa', cursive;
 }
 
-.title{
+.titleBlock {
+	width: 30%;
+	min-width:310px;
+	margin:0 auto;
+	margin-top: 37vh;
+}
+
+#title{
+	position: relative;
 	font-weight: bolder;
 	font-size: 60px;/*4em;*/
 	text-align: center;
+	padding-bottom: 1%;
 }
 
-.subtitle{
+#subtitle{
+	position:relative;
 	font-weight: bolder;
 	font-size: 18px;
 	text-align: center;
-	margin-top: -3.0em;
+	padding-bottom: 4%;
 }
 
 #tagline{
-	margin-top: 2em;
-	width: 325px; /*80vw;*/
+	position:relative;
 	font-size: 16px;
 	line-height: 1.8;
 	text-align: center;
 }
 
 #handClapGif{
-	position:absolute;
-	transform: translate(15%,5%);
+	position:fixed;
+	bottom:0;
+	left:5vw;
 }
 
 #handClapGif img {
-	width: 75%;
+	width:50vh;
 }
 
 
