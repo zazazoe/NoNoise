@@ -93,11 +93,15 @@ body {
   }
 
   #handClapGif img {
-/*	width:40vh;*/
+	width:40vh;
   }
 
   #thumbGif img {
 	display: none;
+  }
+
+  #wowGif img {
+  	width:40vh;
   }
 
 }
