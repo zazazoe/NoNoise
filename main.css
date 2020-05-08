@@ -15,23 +15,23 @@ body {
 
 .title{
 	font-weight: bolder;
-	font-size: 4em;
+	font-size: 60px;/*4em;*/
 	text-align: center;
 }
 
 .subtitle{
 	font-weight: bolder;
-	font-size: 1.0em;
+	font-size: 18px;
 	text-align: center;
 	margin-left: 0.5em;
-	margin-top: -3.6em;
+	margin-top: -3.0em;
 }
 
 #tagline{
 	margin-top: 2em;
 	width: 20em;
-	font-size: 1.0em;
-	line-height: 1.6;
+	font-size: 16px;
+	line-height: 1.8;
 	text-align: center;
 	margin-left: 0.5em;
 }
@@ -43,4 +43,10 @@ body {
 
 #handClapGif img {
 	width: 75%;
+}
+
+
+@media all and (max-width: 600px) {
+  body {
+  }
 }
