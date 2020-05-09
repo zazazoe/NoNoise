@@ -136,7 +136,7 @@ body {
 @media only screen and (max-device-width : 800px) {
   .titleBlock {
   	width: 70%;
-  	margin-top: 30vh;
+  	margin-top: 20vh;
   }
 
   #title{
@@ -157,7 +157,7 @@ body {
   }
 
   #handClapGif img {
-	width:40vh;
+	width:35vh;
   }
 
   #thumbGif img {
