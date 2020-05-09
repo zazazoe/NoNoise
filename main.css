@@ -149,11 +149,24 @@ body {
 
   #tagline {
   	font-size: 32px;
+  	margin-top: -1em;
+  }
+
+  #menuGif {
+  	margin-top: -2em;
   }
 
   #menuGif img {
 	height:12em;
 	width:12em;
+  }
+
+  #TryMeLabel {
+  	font-size: 32px;
+  }
+
+  #HackMeLabel {
+  	font-size: 32px;
   }
 
   #handClapGif img {
