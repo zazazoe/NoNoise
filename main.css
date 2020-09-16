@@ -43,6 +43,15 @@ body {
 	padding-bottom: 4%;
 }
 
+#subtitleTry{
+	position:relative;
+	font-weight: bolder;
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 0%;
+	padding-top: 4%;
+}
+
 #tagline{
 	position:relative;
 	font-size: 16px;
