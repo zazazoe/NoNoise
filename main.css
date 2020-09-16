@@ -11,6 +11,22 @@ body {
 	margin-top: 37vh;
 }
 
+.titleBlockTry {
+	width: 450px;
+	margin:0 auto;
+	margin-top: 20vh;
+}
+
+.explaingifs {
+	width: 450px;
+	margin: 0 auto;
+}
+
+.explaingifs img {
+	margin-bottom: 10%;
+	width: 450px;
+}
+
 #title{
 	position: relative;
 	font-weight: bolder;
