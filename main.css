@@ -164,11 +164,23 @@ body {
   	margin-top: 20vh;
   }
 
+  .titleBlockTry {
+	width: 80%;
+  }
+
+  .explaingifs img {
+	width: auto;
+  }
+
   #title{
   	font-size: 100px;
   }
 
   #subtitle {
+  	font-size: 36px;
+  }
+
+  #subtitleTry {
   	font-size: 36px;
   }
 
